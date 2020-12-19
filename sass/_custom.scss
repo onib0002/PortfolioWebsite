@@ -1,0 +1,125 @@
+nav{
+  h1 {
+    margin : 0;
+  }
+}
+p{
+  text-align: center;
+
+}
+h2{
+  color: white;
+  text-align: center;
+  margin: 3rem auto;
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg,hsl(20, 40%, 40%), #fff,hsl(20, 40%, 40%));
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+h3{
+  letter-spacing: 4px;
+  color: #2439a0;
+  text-align: center;
+}
+.hero{
+  height: clamp(30em, 90vh, 60em);
+  min-height: 40vh;
+  background:linear-gradient(to bottom, #0000, #0009), url(https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixid/200/200/)center / cover no-repeat;
+}
+
+.hero-portfolio{
+  background:linear-gradient(to bottom, #0000, #0009), url(../images/comp.png)center / cover no-repeat;
+  height:900px;
+}
+
+.hero-contact{
+  height:40vh;
+  background:linear-gradient(to bottom, #0000, #0009), 
+  
+  
+}
+
+header{
+  width: 100%;
+}
+.avartar{
+  margin: 20rem;
+}
+@media only screen and (max-width: 600px) {
+  .avartar {
+    margin: 1rem;
+  }
+}
+
+.avartar img{
+  background-color: green;
+  border-radius: 50%;
+  height: 25vh;
+  width: 25vh;
+  margin: 1rem auto;
+  
+}
+.input-field{
+  margin:1rem auto; 
+  padding-top: 15rem;
+}
+.responsive-img{
+  max-width: 40%;
+  height:auto;
+  border: 2px solid green;
+  border-radius: 50%;
+}
+.card-panel{
+  display: flex;
+  margin: 1rem auto;
+  background-color: #2439a0;
+  color:white;
+  width:100%;
+  border-radius: 10px;
+  padding: 30px;
+  min-height: 20rem;
+
+}
+blockquote{
+min-height: 17rem;
+}
+
+.card{
+  height: 20rem;
+  border-radius: 20px 20px ;
+}
+.card-content{
+  min-height: 17rem;
+}
+.card-action{ 
+min-height: .5rem;
+border-radius: 150px 50px 30px 150px;
+}
+
+.btn-large{
+margin: 5rem;
+padding: 5rem auto;
+}
+#indexPara{
+  margin: 2rem;
+  font-weight: bold;
+}
+.page-footer{
+  height: 15rem;
+  
+}
